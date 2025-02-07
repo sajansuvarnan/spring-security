@@ -1,5 +1,6 @@
-package com.telusko.springsecdemo;
+package com.telusko.springsecdemo.controller;
 
+import com.telusko.springsecdemo.model.Student;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,6 +16,7 @@ public class StudentController {
 
 
     List<Student> students = new ArrayList<>(List.of(
+            new Student(0,"test","test"),
             new Student(1, "Sajan", "Java"),
             new Student(2, "Soorej", "Python")
     ));

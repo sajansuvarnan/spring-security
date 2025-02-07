@@ -1,4 +1,4 @@
-package com.telusko.springsecdemo;
+package com.telusko.springsecdemo.model;
 
 
 import lombok.AllArgsConstructor;
@@ -12,4 +12,5 @@ public class Student {
     private int id;
     private String name;
     private String tech;
+
 }
