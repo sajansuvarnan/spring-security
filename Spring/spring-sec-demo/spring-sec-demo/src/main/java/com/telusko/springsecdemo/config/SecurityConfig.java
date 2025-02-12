@@ -28,7 +28,7 @@ public class SecurityConfig {
 
 
     @Autowired
-    private JwsFilter jwSFilter;
+    private JwtFilter jwtFilter;
 
 
     @Bean
